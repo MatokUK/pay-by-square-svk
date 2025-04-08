@@ -17,7 +17,7 @@ jobs:
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2' # Change as needed
+          php-version: '8.3' # Change as needed
           extensions: mbstring, xml, intl, curl
           coverage: none
 
