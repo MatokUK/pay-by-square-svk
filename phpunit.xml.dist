@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/9.3/phpunit.xsd"
+         backupGlobals="false"
+         colors="true"
+         bootstrap="vendor/autoload.php"
+         failOnRisky="true"
+         failOnWarning="true"
+>
+ 
+    <php>
+        <const name="XY_PATH" value="E:\\xz-5.6.4-windows\\bin_x86-64\\xz.exe"/>
+        <ini name="error_reporting" value="-1" />
+    </php>
+
+    <testsuites>
+        <testsuite name="Pay By Square Test Suite">
+            <directory>./Tests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

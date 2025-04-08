@@ -1,0 +1,44 @@
+{
+    "name": "matok/pay-by-square-svk",
+    "description": "Payment QR Code generator for Slovak banks.",
+    "type": "library",
+    "keywords": [
+        "paybysquare",
+        "qrcode",
+        "iban",
+        "slsp",
+        "mbank",
+        "csob",
+        "primabanka",
+        "transakcnadanjepicovina"
+    ],
+    "authors": [
+        {
+            "name": "Matej Kuna",
+            "email": "mat.kuna@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "symfony/process": "^7.2",
+        "symfony/string": "^7.2",
+        "endroid/qr-code": "^6.0"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.45",
+        "phpunit/phpunit": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Matok\\PayBySquare\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        }
+    }
+}
