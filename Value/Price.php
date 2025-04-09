@@ -6,12 +6,22 @@ namespace Matok\PayBySquare\Value;
 
 abstract class Price
 {
-    public readonly string $amount;
-    public readonly string $currency;
+    protected readonly string $amount;
+    protected readonly string $currency;
 
     public function toString(): string
     {
         return $this->amount.' '.$this->currency;
+    }
+
+    public function getAmount(): string 
+    {
+        return $this->amount;
+    }
+
+    public function getCurrency(): string 
+    {
+        return $this->currency;
     }
 
     public static function fromPriceInCents(int $price): self
