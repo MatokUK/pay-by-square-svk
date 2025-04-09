@@ -6,10 +6,13 @@
         "paybysquare",
         "qrcode",
         "iban",
-        "slsp",
-        "mbank",
+        "365bank",
         "csob",
+        "fio",
+        "mbank",
+        "slsp",
         "primabanka",
+        "tartabanka",
         "transakcnadanjepicovina"
     ],
     "authors": [
