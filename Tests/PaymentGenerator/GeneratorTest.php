@@ -19,7 +19,7 @@ class GeneratorTest extends TestCase
     
     protected function setUp(): void
     {
-        $this->generator = new PaymentGenerator(XY_PATH);
+        $this->generator = new PaymentGenerator(getenv('XY_PATH'));
     }
 
     #[DataProvider('paymentDataProvider')]

@@ -10,7 +10,7 @@
 >
  
     <php>
-        <const name="XY_PATH" value="E:\\xz-5.6.4-windows\\bin_x86-64\\xz.exe"/>
+        <env name="XY_PATH" value="E:\\xz-5.6.4-windows\\bin_x86-64\\xz.exe"/>
         <ini name="error_reporting" value="-1" />
     </php>
 
