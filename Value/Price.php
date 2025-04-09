@@ -6,8 +6,8 @@ namespace Matok\PayBySquare\Value;
 
 abstract class Price
 {
-    protected readonly string $amount;
-    protected readonly string $currency;
+    protected string $amount;
+    protected string $currency;
 
     public function toString(): string
     {
