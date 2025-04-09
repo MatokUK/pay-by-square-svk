@@ -7,4 +7,6 @@ namespace Matok\PayBySquare\Value;
 interface QrCode
 {
     public function toPng(): string;
+
+    public function toPngInline(): string;
 }
