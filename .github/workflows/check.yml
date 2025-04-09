@@ -9,6 +9,8 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      XY_PATH: /usr/bin/xz
 
     steps:
       - name: Checkout code
