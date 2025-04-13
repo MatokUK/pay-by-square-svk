@@ -5,6 +5,7 @@
     "type": "library",
     "keywords": [
         "paybysquare",
+        "payment",
         "qrcode",
         "iban",
         "365bank",
@@ -14,6 +15,7 @@
         "slsp",
         "primabanka",
         "tartabanka",
+        "VUB",
         "transakcnadanjepicovina"
     ],
     "authors": [

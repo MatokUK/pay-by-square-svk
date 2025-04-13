@@ -23,7 +23,7 @@ $generator = new Generator('/usr/bin/xz');
 ```php
 use Matok\PayBySquare\Value\DueDate;
 use Matok\PayBySquare\Value\Iban;
-use Matok\PayBySquare\Value\PriceEurgit piush;
+use Matok\PayBySquare\Value\PriceEur;
 use Matok\PayBySquare\Value\Message;
 ...
 
