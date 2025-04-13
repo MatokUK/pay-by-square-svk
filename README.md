@@ -23,7 +23,7 @@ $generator = new Generator('/usr/bin/xz');
 ```php
 use Matok\PayBySquare\Value\DueDate;
 use Matok\PayBySquare\Value\Iban;
-use Matok\PayBySquare\Value\PriceEur;
+use Matok\PayBySquare\Value\PriceEurgit piush;
 use Matok\PayBySquare\Value\Message;
 ...
 
@@ -39,14 +39,6 @@ $payment = $generator->generatePayment(
     $message,
     DueDate::today()
 );
-
-
-
-
-// you have payment string and this can be displayed by any QR Code library:
-
-showQrCode($payment->toString());
-
 ```
 
 You have several possibilities how to display QR Code:
