@@ -1,6 +1,7 @@
 {
     "name": "matok/pay-by-square-svk",
     "description": "Payment QR Code generator for Slovak banks.",
+    "license": "MIT",
     "type": "library",
     "keywords": [
         "paybysquare",
@@ -23,9 +24,9 @@
     ],
     "require": {
         "php": ">=8.2",
+        "endroid/qr-code": "^6.0",
         "symfony/process": "^7.2",
-        "symfony/string": "^7.2",
-        "endroid/qr-code": "^6.0"
+        "symfony/string": "^7.2"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.45",
