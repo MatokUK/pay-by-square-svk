@@ -21,12 +21,18 @@ $generator = new Generator('/usr/bin/xz');
 
 #### How to use
 ```php
+use Matok\PayBySquare\Value\DueDate;
+use Matok\PayBySquare\Value\Iban;
+use Matok\PayBySquare\Value\PriceEur;
+use Matok\PayBySquare\Value\Message;
+...
+
 $iban = new Iban('SK39 8360 5207 0042 0320 8125');
 $price = new PriceEur('2.50');
 $variableSymbol = VariableSymbol(123);
 $message = new Message('my payment message');
 
-$payment = $this->generator->generatePayment(
+$payment = $generator->generatePayment(
     $iban,
     $price,
     $variableSymbol,
